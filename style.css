@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+.navbar1{
+    padding: 7px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    margin-bottom: -10px;
+}
+.navbar1 ul{
+    display: flex;
+    list-style: none;
+}
+.navbar1 ul li a{
+    border-right: 1px solid black;
+    font-weight: 400;
+    padding: 0 12px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+.navbar2{
+    background-color: gray;
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 70px;
+    margin: 10px 20px;
+}
+.navbar2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar2-content h1{
+    font-size: 36px;
+    padding: 7px;
+}
+.navbar2-content p{
+    padding: 5px;
+    font-size: 15px;
+}
+.navbar3{
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: -10px;
+}
+.navbar3 ul{
+    display: flex;
+    list-style: none;
+}
+.navbar3 ul li a{
+    font-weight: 300;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+
+}
+marquee{
+    padding: 7px;
+    background-color: white;
+}
+marquee a{
+    color: black;
+    text-decoration: none;
+}
+.sidebar{
+    margin-top:20px;
+    margin-left: 50px;
+    width: 15%;
+    background-color: red;
+}
+.sidebar-head{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.sidebar-head h5{
+    font-size: 20px;
+}
+.sidebar-links h3{
+    padding: 10px;
+    font-size: 18px;
+}
+.sidebar-links ul{
+    list-style: none;
+}
+.sidebar-links ul li{
+    text-decoration: none;
+}
